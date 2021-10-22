@@ -1,0 +1,30 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "Dicoding submission \"Belajar Membuat Aplikasi Back-End untuk Pemula\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismynr/DC-Bookshelf.git"
+  },
+  "author": "ismynr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismynr/DC-Bookshelf/issues"
+  },
+  "homepage": "https://github.com/ismynr/DC-Bookshelf#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "nanoid": "^3.1.30",
+    "nodemon": "^2.0.14"
+  },
+  "_id": "bookshelf-api@1.0.0"
+}
